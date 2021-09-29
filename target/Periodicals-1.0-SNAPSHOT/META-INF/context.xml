@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- Specify a JDBC datasource -->
+    <Resource name="jdbc/poolName"
+    auth="Container"
+    type="javax.sql.DataSource"
+    username="root"
+    password="meow"
+    driverClassName="com.mysql.cj.jdbc.Driver"
+    url="jdbc:mysql://localhost:3306/sys?autoReconnect=true"
+    validationQuery="select 1"
+    maxActive="100"
+    maxIdle="100"/>
+
+</Context>
