@@ -9,8 +9,5 @@
         <module name="Periodicals" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Periodicals" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
