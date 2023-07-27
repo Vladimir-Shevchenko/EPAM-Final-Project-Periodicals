@@ -15,7 +15,8 @@ import java.security.MessageDigest;
 public class LoginServlet extends HttpServlet {
 
     private static final Logger log = Logger.getLogger(LoginServlet.class);
-
+String cat = "meow";
+String dog = "woof";
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
        String username = request.getParameter("username");
